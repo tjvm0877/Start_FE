@@ -64,13 +64,13 @@ console.log(image1); // (9) [1,2,3,4,5,6,7, "a", "b"]
 var data = null;
 
 // 빈값을 가지고 있다.
-var date1 = ' ';
+var data1 = '';
 
 // undefined
-var date2;
+var data2;
 
 // null "" undefined
-//console.log(data, data1, date2); // Uncaught ReferenceError: data1 is not defined 라고 에러.... 
+console.log(data, data1, data2); 
 
 
 
