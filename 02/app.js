@@ -272,3 +272,24 @@ var result = testReg.test(text);
 
 console.log(result);
 
+
+var sum = 0;
+var transType = 0;
+console.log(typeof(sum));
+while(true){
+    var get = prompt("더할 숫자를 입력해 주세요.");
+ 
+
+    if(get != null){
+        if(!isNaN(get)){ //숫자일 때
+            transType = parseInt(get);             
+            sum += transType;
+        }else{ //숫자가 아닐때
+            console.log("숫자가 아니다.");
+            continue;
+        }
+    }else{
+        alert("숫자의 총 합은:"+ sum);
+        break;
+    }
+}
