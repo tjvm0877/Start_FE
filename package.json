@@ -1,0 +1,23 @@
+{
+  "name": "start_fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjvm0877/Start_FE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjvm0877/Start_FE/issues"
+  },
+  "homepage": "https://github.com/tjvm0877/Start_FE#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "prettier": "2.2.1"
+  }
+}
