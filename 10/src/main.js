@@ -1,5 +1,7 @@
 import sum from './sum.js';
+import avr from './avr.js';
+import random from './rand.js';
 
-// alert(1, 3); 윈도우 객체이기 때문에 브라우저가 아니면 수행 불가능
-
-document.getElementById('#debug').innerHTML = sum(1, 2);
+document.getElementById('sum').innerHTML = sum(1, 2);
+document.getElementById('avr').innerHTML = avr([1, 2, 'a', 3]);
+document.getElementById('rand').innerHTML = random(100, 200);
