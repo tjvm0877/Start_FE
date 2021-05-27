@@ -13,6 +13,7 @@ const todos = [
 
 $result.addEventListener('click', (event) => {
   const { className } = event.target;
+  console.log(typeof className);
   if (className === 'delete') {
     const { index } = event.target.parentElement.dataset;
     console.log(index);
