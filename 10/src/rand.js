@@ -1,12 +1,13 @@
-function random(min, max) {
+function ran(min, max) {
+  let result = 0;
   if (!isNaN(min) && max === undefined) {
     max = min;
     min = 0;
+    result = Math.floor(Math.random()) * min;
   } else if (isNaN(min) || isNaN(max)) {
     return -1;
   }
-
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  result = Math.floor(Math.random() * (max - min)) + min;
+  return result;
 }
-
-export default random;
+export default ran;
