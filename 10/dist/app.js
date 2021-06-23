@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("sum").innerHTML=3,document.getElementById("avr").innerHTML=function(e){let t=0,n=0,r=Array.isArray(e);if(!1===r)for(i=0;i<arguments.length;i++)!1===isNaN(arguments[i])&&(t+=arguments[i],n+=1);else if(!0===r)for(i=0;i<e.length;i++)!1===isNaN(e[i])&&(t+=e[i],n+=1);let l=t/n;return l}(1,2,"a",3)})();
